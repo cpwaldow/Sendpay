@@ -1,0 +1,24 @@
+.text {
+  color: #b7b3b3;
+  font-weight: 600;
+  max-width: 250px;
+}
+
+.firstItem {
+  color: #8b8b8b;
+}
+
+.product {
+  font-weight: 500;
+  margin: 40px 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.redeSocial {
+  background-color: #6c63ff;
+  margin-left: 50px;
+  color: #fff;
+}

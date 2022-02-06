@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 
 import logo from './logo.png';
+import './style/global.css';
 import './style/header.css';
 
 class Header extends Component {
   render() {
     return (
-      <header>
+      <header className='container'>
         <img src={logo} alt='logo' className='logo' />
-        <h2 className='companyName'>Sendpay</h2>
+        <h3 className='companyName'>Sendpay</h3>
         <nav>
           <ul className='menuBar'>
             <li key='send money'>send money</li>
