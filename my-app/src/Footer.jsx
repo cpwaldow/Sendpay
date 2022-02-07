@@ -45,9 +45,27 @@ class Footer extends Component {
         </section>
         <section className='redeSocial'>
           <h4>Redes Sociais</h4>
-          <p>Facebook</p>
-          <p>Github</p>
-          <p>Twitter</p>
+          <a
+            href='https://www.facebook.com/profile.php?id=100001397816137'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            Facebook
+          </a>
+          <a
+            href='https://github.com/cpwaldow'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            Github
+          </a>
+          <a
+            href='https://twitter.com/cewaldow'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            Twitter
+          </a>
         </section>
       </footer>
     );
