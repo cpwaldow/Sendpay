@@ -1,0 +1,32 @@
+header {
+  justify-content: space-between;
+}
+
+.menuBar {
+  margin-top: 24px;
+}
+
+.menuBar li {
+  display: inline;
+  margin: 0 16px;
+  font-weight: 700;
+}
+
+button {
+  width: 106px;
+  height: 40px;
+  margin-top: 14px;
+}
+
+.signIn {
+  font-weight: 700;
+  background-color: #fff;
+  border: 1px solid #b7b3b3;
+}
+
+.register {
+  font-weight: 700;
+  background-color: #6c63ff;
+  border: 1px solid #b7b3b3;
+  color: #fff;
+}
