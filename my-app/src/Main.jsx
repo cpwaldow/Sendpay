@@ -1,10 +1,25 @@
 import React, { Component } from 'react';
 
+import './style/main.css';
+
 class Main extends Component {
   render() {
     return (
-      <main>
-        <h2>main</h2>
+      <main className='container'>
+        <section className='leftContent'>
+          <h2 className='title'>Sending money is Easier than before</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat,
+            quae.
+          </p>
+
+          <a href='#' className='btn registerMain'>
+            Register
+          </a>
+          <a href='#' className='btn learnMore'>
+            learn more
+          </a>
+        </section>
       </main>
     );
   }
