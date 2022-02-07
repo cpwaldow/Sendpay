@@ -8,8 +8,10 @@ class Header extends Component {
   render() {
     return (
       <header className='container'>
-        <img src={logo} alt='logo' className='logo' />
-        <h3 className='companyName'>Sendpay</h3>
+        <section className='container'>
+          <img src={logo} alt='logo' className='logo' />
+          <h3 className='companyName'>Sendpay</h3>
+        </section>
         <nav>
           <ul className='menuBar'>
             <li key='send money'>send money</li>
