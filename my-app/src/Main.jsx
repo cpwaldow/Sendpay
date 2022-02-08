@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import './style/main.css';
+import phone from './img/celphone.svg';
 
 class Main extends Component {
   render() {
@@ -19,6 +20,9 @@ class Main extends Component {
           <a href='#' className='btn learnMore'>
             learn more
           </a>
+        </section>
+        <section>
+          <img src={phone} alt='Celphone' className='phone' />
         </section>
       </main>
     );

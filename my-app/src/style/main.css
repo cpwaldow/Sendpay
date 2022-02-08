@@ -27,3 +27,10 @@
   border: 1px solid #b7b3b3;
   color: #000;
 }
+
+.phone {
+  margin-top: 20px;
+  width: 70%;
+  display: flex;
+  margin-left: auto;
+}
