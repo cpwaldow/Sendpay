@@ -62,11 +62,6 @@
   font-size: 18px;
 }
 
-.container > section > h3,
-p {
-  text-align: center;
-}
-
 .HiwImg {
   display: block;
   margin: 0 auto;
@@ -76,6 +71,44 @@ p {
   font-size: 16px;
 }
 
+.HiwTitle {
+  text-align: center;
+}
+
+.HiwText {
+  font-size: 16px;
+  text-align: center;
+}
+
 .howItWorksFirstText {
   margin-bottom: 60px;
+}
+
+.realTimeContainer {
+  justify-content: space-between;
+  margin-top: 90px;
+  margin-bottom: 200px;
+}
+
+.realTimeSection {
+  max-width: 370px;
+}
+
+.realTimeSection > h3 {
+  font-size: 30px;
+}
+
+.manImg {
+  width: 40%;
+}
+
+.realTimeText {
+  opacity: 0.75;
+  font-size: 20px;
+}
+
+.readMore {
+  color: #6c63ff;
+  text-decoration: none;
+  font-size: 22px;
 }

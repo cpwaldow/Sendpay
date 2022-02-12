@@ -20,7 +20,7 @@ class HowItWorks extends Component {
           <section className='container'>
             <section>
               <img src={carta} alt='carta' className='HiwImg' />
-              <h3>In-app transer</h3>
+              <h3 className='HiwTitle'>In-app transer</h3>
               <p className='HiwText'>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Nostrum, deleniti!
@@ -28,7 +28,7 @@ class HowItWorks extends Component {
             </section>
             <section>
               <img src={flor} alt='flor' className='HiwImg' />
-              <h3>In-app transer</h3>
+              <h3 className='HiwTitle'>In-app transer</h3>
               <p className='HiwText'>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Nostrum, deleniti!
@@ -36,7 +36,7 @@ class HowItWorks extends Component {
             </section>
             <section>
               <img src={carroEntrega} alt='carro Entrega' className='HiwImg' />
-              <h3>In-app transer</h3>
+              <h3 className='HiwTitle'>In-app transer</h3>
               <p className='HiwText'>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Nostrum, deleniti!

@@ -4,6 +4,7 @@ import './style/main.css';
 
 import SendMoney from './SendMoney';
 import HowItWorks from './HowItWorks';
+import RealTime from './RealTime';
 
 class Main extends Component {
   render() {
@@ -11,6 +12,7 @@ class Main extends Component {
       <main>
         <SendMoney />
         <HowItWorks />
+        <RealTime />
       </main>
     );
   }
