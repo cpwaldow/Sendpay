@@ -3,12 +3,14 @@ import React, { Component } from 'react';
 import './style/main.css';
 
 import SendMoney from './SendMoney';
+import HowItWorks from './HowItWorks';
 
 class Main extends Component {
   render() {
     return (
-      <main className='container'>
+      <main>
         <SendMoney />
+        <HowItWorks />
       </main>
     );
   }
