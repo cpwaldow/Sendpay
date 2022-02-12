@@ -61,3 +61,21 @@
   text-align: center;
   font-size: 18px;
 }
+
+.container > section > h3,
+p {
+  text-align: center;
+}
+
+.HiwImg {
+  display: block;
+  margin: 0 auto;
+}
+
+.HiwText {
+  font-size: 16px;
+}
+
+.howItWorksFirstText {
+  margin-bottom: 60px;
+}
