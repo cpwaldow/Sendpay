@@ -20,6 +20,8 @@ class RealTime extends Component {
             <a
               href='https://www.figma.com/file/EKwPg668Y6BTtZjses4HRi/website-lading-page-(Community)?node-id=1%3A2'
               className='readMore'
+              target='_blank'
+              rel='noreferrer'
             >
               Read more {'>'}
             </a>
