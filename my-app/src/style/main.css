@@ -87,7 +87,7 @@
 .realTimeContainer {
   justify-content: space-between;
   margin-top: 90px;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
 }
 
 .realTimeSection {
@@ -111,4 +111,54 @@
   color: #6c63ff;
   text-decoration: none;
   font-size: 22px;
+}
+
+.serviceText,
+.servicesTitle {
+  text-align: center;
+}
+
+.servicesTitle {
+  font-size: 44px;
+}
+
+.serviceText {
+  font-size: 18px;
+  color: #b7b3b3;
+}
+
+.servicesContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 200px;
+}
+
+.leftSide,
+.rightSide {
+  width: 50%;
+  text-align: center;
+}
+
+.allServices {
+  display: flex;
+}
+
+.allServices h3,
+p {
+  text-align: start;
+}
+
+.allServices h3 {
+  font-size: 24px;
+}
+
+.allServices p {
+  color: #b7b3b3;
+  max-width: 300px;
+}
+
+.allServices img {
+  width: 90px;
+  margin-right: 24px;
 }
