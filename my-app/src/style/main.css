@@ -142,6 +142,7 @@
 
 .allServices {
   display: flex;
+  margin-bottom: 100px;
 }
 
 .allServices h3,
@@ -159,6 +160,6 @@ p {
 }
 
 .allServices img {
-  width: 90px;
+  width: 130px;
   margin-right: 24px;
 }
