@@ -6,6 +6,7 @@ import SendMoney from './SendMoney';
 import HowItWorks from './HowItWorks';
 import RealTime from './RealTime';
 import Services from './Services';
+import People from './People';
 
 class Main extends Component {
   render() {
@@ -15,6 +16,7 @@ class Main extends Component {
         <HowItWorks />
         <RealTime />
         <Services />
+        <People />
       </main>
     );
   }

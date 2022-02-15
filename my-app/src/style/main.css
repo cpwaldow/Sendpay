@@ -131,7 +131,7 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
 }
 
 .leftSide,
@@ -162,4 +162,25 @@ p {
 .allServices img {
   width: 130px;
   margin-right: 24px;
+}
+
+.people {
+  background-color: #6c63ff;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 60px;
+  margin-bottom: 80px;
+}
+
+.people h3 {
+  font-size: 30px;
+  text-transform: capitalize;
+  font-style: italic;
+  max-width: 30px;
+}
+
+.sayingAbout {
+  max-width: 150px;
 }
