@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 
-import logo from './logo.png';
+import logo from './img/logo.png';
 
-import './style/global.css';
 import './style/footer.css';
 
 class Footer extends Component {
